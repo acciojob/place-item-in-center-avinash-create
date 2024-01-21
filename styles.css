@@ -1,14 +1,14 @@
 /* Apply flexbox properties to the holder */
-#holder {
-  display: flex;
-  justify-content: center; /* Aligns items along the horizontal axis (main-axis) */
-  align-items: center; /* Aligns items along the vertical axis (cross-axis) */
-  width: 100vw; /* Full viewport width */
-  height: 100vh; /* Full viewport height */
+.holder {
+  display:flex;
+  justify-content:center;
+  align-items: center; 
+  width: 100vw; 
+  height: 100vh;
 }
 
 /* Style for item-1 */
-#item-1 {
+.item-1 {
   width: 100px;
   height: 100px;
   background-color: red;
